@@ -1,0 +1,14 @@
+#for mac
+http://www.codeblocq.com/2016/09/Pimp-up-iTerm-with-Zsh-and-prezto-on-Mac-OS-X/
+
+#Install powerline fonts
+https://github.com/powerline/fonts
+
+#Istall Prezto
+https://github.com/sorin-ionescu/prezto
+
+#Install paradox theme
+https://github.com/paradox460/prezto/blob/paradox/modules/prompt/functions/prompt_paradox_setup
+
+
+
