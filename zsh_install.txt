@@ -10,5 +10,14 @@ https://github.com/sorin-ionescu/prezto
 #Install paradox theme
 https://github.com/paradox460/prezto/blob/paradox/modules/prompt/functions/prompt_paradox_setup
 
+###FINALLY
 
+#modify the .preztorc file.
+sudo vim ~/.preztorc
+
+#Add the following to the modules loaded section.
+\git
+
+#Set the current prompt by commenting out the default prmpt and adding the following line to prompt section.
+zstyle ':prezto:module:prompt' theme 'paradox'
 
