@@ -1,14 +1,18 @@
-#for mac
-http://www.codeblocq.com/2016/09/Pimp-up-iTerm-with-Zsh-and-prezto-on-Mac-OS-X/
 
-#Install powerline fonts
-https://github.com/powerline/fonts
+# Install powelrine 10k fonts.
+https://github.com/romkatv/powerlevel10k/blob/master/README.md#how-do-i-configure-instant-prompt
 
-#Istall Prezto
+# Istall Prezto
 https://github.com/sorin-ionescu/prezto
 
-#Install paradox theme
+# Install paradox theme
+prompt_paradox_setup
+
 https://github.com/paradox460/prezto/blob/paradox/modules/prompt/functions/prompt_paradox_setup
+
+# Alternatively install powerline 10k
+prompt_powerline10k_setup
+
 
 ###FINALLY
 
@@ -16,8 +20,8 @@ https://github.com/paradox460/prezto/blob/paradox/modules/prompt/functions/promp
 sudo vim ~/.preztorc
 
 #Add the following to the modules loaded section.
-\git
+'git' \
 
 #Set the current prompt by commenting out the default prmpt and adding the following line to prompt section.
 zstyle ':prezto:module:prompt' theme 'paradox'
-
+zstype ':prezto:module:prompt' theme 'powerlevel10k'
