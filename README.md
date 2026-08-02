@@ -1,70 +1,51 @@
 ```markdown
 # shell_setup
 
-Automate your shell setup with customizable scripts for a consistent command-line experience across systems. This repository provides a collection of scripts and configurations for setting up and managing your shell environment, supporting Bash, Zsh, and Git.
+Automate and customize your shell environment with scripts for Bash, Zsh, and Git, ensuring a consistent CLI experience across systems.
+
+## Overview
+
+`shell_setup` is a collection of scripts designed to streamline the setup and customization of your shell environment. Whether you are using Bash or Zsh, these scripts will help you configure your command-line interface (CLI) for a consistent and efficient experience across different systems. Additionally, the repository includes configurations for Git to enhance your version control workflow.
 
 ## Features
 
-- **Cross-Shell Support**: Easily switch between Bash and Zsh with tailored configurations.
-- **Git Integration**: Seamlessly integrates with Git for enhanced version control operations.
-- **Customizable Scripts**: Modify scripts to suit your personal workflow and preferences.
-- **Consistent Environment**: Maintain a uniform command-line experience across different systems.
+- **Bash and Zsh Setup**: Easily configure your preferred shell with custom scripts.
+- **Git Customization**: Optimize your Git experience with tailored settings.
+- **Cross-System Consistency**: Ensure your CLI environment feels the same on any machine.
+- **Easy Configuration**: Scripts are straightforward to modify and extend.
 
 ## Installation
 
-To set up your shell environment using `shell_setup`, follow these steps:
-
-1. **Clone the Repository**:
-
-    ```bash
-    git clone https://github.com/yourusername/shell_setup.git
-    ```
-
-2. **Navigate to the Directory**:
-
-    ```bash
-    cd shell_setup
-    ```
-
-3. **Run the Setup Script**:
-
-    ```bash
-    ./install.sh
-    ```
-
-    This script will guide you through the setup process and apply the necessary configurations for your shell environment.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/shell_setup.git
+   ```
+2. Navigate into the project directory:
+   ```bash
+   cd shell_setup
+   ```
+3. Run the setup script for your desired shell:
+   - For Bash:
+     ```bash
+     ./setup_bash.sh
+     ```
+   - For Zsh:
+     ```bash
+     ./setup_zsh.sh
+     ```
+4. Follow the on-screen instructions to complete the setup.
 
 ## Usage
 
-Once installed, you can use the following commands to manage your shell environment:
+- **Bash**: After running the setup, open a new terminal session to see the changes.
+- **Zsh**: Make sure Zsh is your default shell, then open a new terminal session.
+- **Git**: The setup script will configure your `.gitconfig` with useful aliases and settings.
 
-- **Switch Shell**: To switch between Bash and Zsh, use the command:
+## Contribution Guidelines
 
-    ```bash
-    ./switch_shell.sh [bash|zsh]
-    ```
-
-- **Update Configurations**: To pull the latest configurations from the repository:
-
-    ```bash
-    ./update_configs.sh
-    ```
-
-- **Git Enhancements**: Enjoy enhanced Git commands and shortcuts as part of your shell environment.
-
-## Contribution
-
-We welcome contributions to improve and expand the features of `shell_setup`. To contribute:
-
-1. Fork the repository.
-2. Create a new branch for your feature or bugfix.
-3. Submit a pull request with a detailed description of your changes.
+We welcome contributions to improve `shell_setup`! If you have ideas for new features or enhancements, feel free to fork the repository and submit a pull request. Please ensure your code follows the existing style and include documentation for any new features.
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
-
----
-
-Enjoy a streamlined and efficient shell experience with `shell_setup`!
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 ```
